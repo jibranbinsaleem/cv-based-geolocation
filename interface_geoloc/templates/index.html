@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  width: 30%;
+  border: none;
+  border-radius: 0.5em;
+  background: lightgreen;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+h1{display: block;
+  margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        border: none;
+        border-radius: 0.5em;
+        background: rgb(49, 40, 99);
+        color: white;
+        font-size: 2.0em;
+        cursor: pointer;
+        border: 2px solid red;
+        width:75%;
+        opacity: 75%
+
+}
+h2{
+  display: block;
+  margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        border: none;
+        border-radius: 0.5em;
+        background: rgb(49, 40, 99);
+        color: white;
+        font-size: 1.5em;
+        cursor: pointer;
+        border: 2px solid red;
+        width:50%;
+        opacity:75%
+
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  height: 600px;
+  border: 0;
+}
+      /* Add a gradient background to the body */
+      body {
+        background: linear-gradient(rgb(31, 203, 151), rgb(8, 154, 159));
+      }
+
+      /* Style the file input and submit button */
+      .file-input {
+        display: block;
+  margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        border: none;
+        border-radius: 0.5em;
+        background: rgb(55, 129, 107);
+        color: white;
+        font-size: 1.2em;
+        cursor: pointer;
+        border: 2px solid red;
+        width:25%;
+      }
+      .file-input input[type="file"] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Vision Based geolocation 
+      
+    </h1>
+    <br>
+    <h2>
+      By Ahmad Faraz Sheikh
+      And Muhammad Jibran Bin Saleem
+    </h2>
+    <br>
+    <!-- Add a file input and submit button -->
+    <form action = "/home" method="post" enctype="multipart/form-data">
+      <label class="file-input">
+        Choose File
+        <input type="file" name="file">
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+<!-- 
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+      </form> -->
+
+    <!-- Add an embedded Google map -->
+
+
+    <!-- <iframe
+      src= {{data}}
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border:0;"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+    ></iframe> -->
+  </body>
+</html>
