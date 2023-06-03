@@ -9,7 +9,6 @@ This project implements a computer vision-based geolocation system that utilizes
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
 - [Evaluation](#evaluation)
-- [Results](#results)
 - [Contributors](#contributors)
 
 ## Introduction
@@ -29,14 +28,9 @@ The model architecture used for computer vision based geolocation is transfer le
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/twitter-bot-detection.git
+   git clone https://github.com/your-username/cv-based-geolocation.git
    ```
-
-2. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install the required dependencies
 
 3. Run the Flask app:
 
@@ -54,4 +48,4 @@ The model is evaluated on the test dataset and it returned us a good Accurracy s
 ## Contributors
 
 - [Muhammad Jibran Bin Saleem](https://github.com/jibranbinsaleem)
-- [Ahmad Faraz Sheikh]([https://www.linkedin.com/in](https://github.com/FarazSheikh16))
+- [Ahmad Faraz Sheikh]((https://github.com/FarazSheikh16))
