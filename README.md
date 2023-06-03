@@ -1,30 +1,57 @@
-# Computer Vision-based Geolocation
+# Computer Vision based Geolocation
 
-This project implements a computer vision-based geolocation system that utilizes deep learning techniques and transfer learning with the ResNet architecture. The system extracts longitude and latitude coordinates from images and opens the corresponding location on Google Maps.
+This project implements a computer vision-based geolocation system that utilizes deep learning techniques and transfer learning with the ResNet architecture. The system aims to accurately predict the longitude and latitude coordinates of a location based on input images, providing a powerful tool for geolocation and mapping applications.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Dataset](#dataset)
+- [Model Architecture](#model-architecture)
+- [Usage](#usage)
+- [Evaluation](#evaluation)
+- [Results](#results)
+- [Contributors](#contributors)
+
+## Introduction
+
+Geolocation plays a crucial role in various domains, including navigation, urban planning, and location-based services. Traditional methods rely on GPS coordinates or address-based information, but they may not always be available or accurate. By leveraging the power of computer vision and transfer learning, this system offers an alternative approach that can automatically extract location information from visual data.
 
 ## Dataset
 
 The dataset used for training the model consists of labeled images of various buildings within the University of Salford. The dataset can be downloaded from [here](https://figshare.com/articles/dataset/UoS_Buildings_Image_Dataset_for_Computer_Vision_Algorithms/20383155).
 
-## System Architecture
+## Model Architecture
 
-The system follows the following architecture:
+The model architecture used for computer vision based geolocation is transfer learning. We Mobile net and fine tuned by adding a global average pooling layer and a fully connected layer with the desired number of output units
 
-1. **Data Collection**: Gathered a labeled dataset of University of Salford building images and associated longitude and latitude coordinates.
+## Usage
 
-2. **Preprocessing**: Prepared the dataset by resizing images, normalizing pixel values, and splitting into training and validation sets.
+1. Clone the repository:
 
-3. **Transfer Learning**: Used transfer learning with the pre-trained ResNet model to extract features from the images.
+   ```bash
+   git clone https://github.com/your-username/twitter-bot-detection.git
+   ```
 
-4. **Model Training**: Trained the modified ResNet model to predict longitude and latitude coordinates.
+2. Install the required dependencies:
 
-5. **Inference**: Deployed the trained model to predict coordinates for input images.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-6. **Google Maps Integration**: Opened the predicted location on Google Maps based on the coordinates.
+3. Run the Flask app:
+
+   ```bash
+   python app.py
+   ```
+
+4. Access the web application in your browser at `http://localhost:5000/home`.
+
+## Evaluation
+
+The model is evaluated on the test dataset and it returned us a good Accurracy score of **94%**. These metrics provide an assessment of the model's performance in correctly classifying bot and non-bot accounts. Flask app is built to test for real world data.
 
 
-## Conclusion
+## Contributors
 
-The computer vision-based geolocation system demonstrates accurate prediction of longitude and latitude coordinates from images. By integrating with Google Maps, it provides a user-friendly geolocation experience. The system has potential applications in navigation, landmark identification, and location-based services. Further improvements can be made by incorporating additional data sources, refining the training process, and exploring advanced computer vision algorithms.
-
-
+- [Muhammad Jibran Bin Saleem](https://github.com/jibranbinsaleem)
+- [Ahmad Faraz Sheikh]([https://www.linkedin.com/in](https://github.com/FarazSheikh16))
