@@ -48,4 +48,4 @@ The model is evaluated on the test dataset and it returned us a good Accurracy s
 ## Contributors
 
 - [Muhammad Jibran Bin Saleem](https://github.com/jibranbinsaleem)
-- [Ahmad Faraz Sheikh]((https://github.com/FarazSheikh16))
+- [Ahmad Faraz Sheikh](https://github.com/FarazSheikh16)
