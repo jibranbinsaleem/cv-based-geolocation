@@ -1,6 +1,6 @@
 # Computer Vision based Geolocation
 
-This project implements a computer vision-based geolocation system that utilizes deep learning techniques and transfer learning with the ResNet architecture. The system aims to accurately predict the longitude and latitude coordinates of a location based on input images, providing a powerful tool for geolocation and mapping applications.
+This project implements a computer vision-based geolocation system that utilizes deep learning techniques and transfer learning with the MobileNet architecture. The system aims to accurately predict the longitude and latitude coordinates of a location based on input images, providing a powerful tool for geolocation and mapping applications.
 
 ## Table of Contents
 
